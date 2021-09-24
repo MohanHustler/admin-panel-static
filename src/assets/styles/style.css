@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px;
+}
+label {
+  margin-bottom: 0px;
+}
+ul {
+  margin-bottom: 0px;
+}
+.btn-primary {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-primary:hover {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.nav-link {
+  padding: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px !important;
+}
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+.custom-input label {
+  color: #5a7184;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.custom-input label span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.custom-input {
+  margin-bottom: 30px;
+}
+.custom-input input {
+  padding: 10px 15px;
+  height: 50px;
+  color: #959ead;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.custom-input select {
+  padding: 10px 15px;
+  height: 50px;
+  color: #959ead;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.custom-input textarea {
+  padding: 15px;
+  color: #959ead;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+}
+.custom-input .form-control:focus {
+  border: 1px solid #1eba68;
+  box-shadow: none !important;
+}
+.green-btn {
+  color: #fff;
+  border-radius: 4px;
+  background-color: #07a552;
+  padding: 15px 0px;
+  width: 100%;
+  font-weight: 600;
+}
+.green-btn.red{
+  background-color: red;
+}
+.green-btn.red:hover{
+  background-color: red;
+}
+.green-btn.red:focus{
+  background-color: red;
+}
+.green-btn.red:active{
+  background-color: red;
+}
+.green-btn:hover {
+  background-color: #07a552;
+  color: #fff;
+}
+.green-btn:active {
+  background-color: #07a552 !important;
+  color: #fff !important;
+}
+.green-btn:focus {
+  background-color: #07a552;
+  color: #fff;
+}
+.white-btn {
+  color: #000;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 15px 0px;
+  width: 100%;
+  font-weight: 600;
+}
+.white-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.white-btn:active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.white-btn:focus {
+  background-color: #fff;
+  color: #000;
+}
+textarea {
+  resize: none;
+}
+.custom-input .form-file:focus {
+  outline: none !important;
+}
+.custom-input input[type='file' i]:focus {
+  outline: none !important;
+}
+.form-button-section {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  margin: 10px;
+}
+.form-button-section .green-btn {
+  width: 20%;
+}
+.form-button-section .white-btn {
+  width: 20%;
+}
+.news-view .form-button-section {
+  margin-top: 20px;
+}
+.add-news {
+  padding: 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+  position: relative;
+  background-color: #fbfbfb;
+}
+.add-news h2 {
+  position: absolute;
+  right: -15px;
+  top: -20px;
+  cursor: pointer;
+}
+.add-news h2 img {
+  width: 30px;
+}
+.add-news:nth-child(4) h2 {
+  display: none;
+}
+
+.signin-card-head {
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+.signin-card-head h2 {
+  position: absolute;
+  top: -60px;
+  right: -6%;
+}
+.signin-card-head h2 img {
+  width: 35px;
+}
+.signin-card-head h4 {
+  color: #02314b;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+}
+.signin-card-head p {
+  color: #02314b;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  line-height: 22px;
+  padding-top: 15px;
+}
+.signin-card-head h4 span {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  font-size: 14px;
+  padding: 5px 20px;
+  width: auto;
+  margin-top: -5px;
+}
+.signin-card-head h4 span img {
+  width: 20px;
+}

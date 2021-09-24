@@ -1,0 +1,159 @@
+.dashboard-wrapper{
+    margin-top: 70px;
+}
+.dashboard-container{
+    background-color: #F7F7F7;
+    padding: 30px;
+    width: 83%;
+    height: auto;
+    margin-left: 17%;
+}
+.dashboard-inner-container{
+    padding: 60px;
+    background: #ffff;
+}
+.news-head{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.news-head h4{
+    color: #02314B;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    padding-bottom: 15px;
+}
+.news-card-img img{
+    width: 100%;
+}
+.news-card{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #C5C5C5;
+    padding-bottom: 30px;
+}
+.news-card:last-child{
+    border-bottom: 0px solid #C5C5C5;
+    padding-bottom: 0px;
+}
+.news-card-text h4{
+    font-size: 16px;
+    line-height: 26px;
+    color: #282a2d;
+    font-weight: 600;
+}
+.news-card-text p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #7d8597;
+    font-weight: 400;
+    letter-spacing: 0.03px;
+}
+.news-card-text .bottom-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.network{
+    padding:20px;
+    margin-bottom: 20px;
+    border: 1px solid #C5C5C5;
+}
+.news-card-text .bottom-section span{
+    width: 50%;
+}
+.network .bottom-section span h4{
+    font-size: 20px;
+}
+.news-card-text .button-section {
+    margin-top: 10px;
+}
+
+.news-card-text .button-section ul li:nth-child(2){
+    border: 1px solid #000;
+    height: 18px;
+    vertical-align: middle;
+    cursor: unset;
+}
+.news-card-text .button-section ul li:nth-child(1){
+    color:green;
+
+}
+.news-card-text .button-section ul li:nth-child(3){
+    color:red;
+}
+.news-card-text .button-section ul li{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.milestone-card .overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.milestone-card .news-card-img{
+    height: 300px;
+}
+.milestone-card .news-card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.milestone-card .milestone-text{
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding: 10px;
+}
+.milestone-card .milestone-text label{
+    color:#fff;
+    margin-top:20px;
+}
+.milestone-card .milestone-text p{
+    color:#fff;
+}
+.milestone-card  .news-card-text .bottom-section{
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+}  
+.pad0{
+    padding:0px;
+}
+.news-card-section{
+    display: flex;
+    justify-content: space-between;
+}
+.news-card-section .news-card-img{
+    flex-basis: 30%;
+    position: relative;
+}
+.news-card-section .news-card-img .overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.news-card-section .news-card-img .milestone-text{
+    position: absolute;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+.news-card-section .news-card-img .milestone-text p{
+    color:#fff;
+}
+.news-card-section .news-card-img .milestone-text label{
+    color:#fff;
+    margin-top:10px;
+}
+.partnership-card .news-card-text h4{
+    padding:20px 0px;
+}
